@@ -2,9 +2,10 @@
   "name": "nodejs-sandbox",
   "version": "1.0.0",
   "description": "This is a Node.js project.",
+  "type": "module",
   "main": "index.html",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
